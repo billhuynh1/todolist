@@ -10,5 +10,38 @@
 </head>
 <body>
     
+    <header>
+        <h1>Todo List</h1>
+        <form id="new-task-form">
+            <input 
+                type="text" 
+                id="new-task-input"
+                placeholder="New Task"/>
+            <input
+                type="Submit"
+                id="new-task-submit"
+                value="Add Task"/>
+        </form>
+    </header>
+    <main>
+         <section class="todo-list">
+            <h2>Todos</h2>
+            <div id="todos">
+                 <div class="content">
+                    <input 
+                        type="text"
+                        class="text"
+                        value="Tasks" 
+                        readonly
+                    />
+                 </div>
+                 <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                 </div>
+            </div>
+         </section>
+    </main>
+     <script src="main.js"></script>
 </body>
 </html>
